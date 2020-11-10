@@ -1,4 +1,4 @@
-# NanoHat SPDIF - S/PDIF HAT for NanoPI NEO/NEO2 SBCs and custom BuildRoot Distribution with SPDIF support for NanoPI NEO/NEO2 Series of embedded Development Boards
+# NanoHat SPDIF - SPDIF HAT for NanoPI NEO/NEO2 SBCs and custom BuildRoot Distribution
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
