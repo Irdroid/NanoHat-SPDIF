@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+![NanoHat-SPDIF](https://hwgroup.b-cdn.net/wp-content/uploads/2020/11/NanoHat-Spdif-collage_wide_scaled-800x490.jpg)
+
 NanoHat SPDIF is a custom BuildRoot Linux Distribution for NanoPi NEO / NEO2 series of embedded development boards.
 
   - Built in SPDIF output driver
