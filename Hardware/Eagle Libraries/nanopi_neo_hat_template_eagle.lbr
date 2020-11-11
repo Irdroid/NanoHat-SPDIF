@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="NANOPI_NEO_HAT">
+<description>NanoPi Neo/Neo2 Hat Template</description>
+<wire x1="-0.11" y1="38.455" x2="1.145" y2="39.71" width="0.001" layer="20"/>
+<wire x1="1.145" y1="39.71" x2="38.795" y2="39.71" width="0.001" layer="20"/>
+<wire x1="38.795" y1="39.71" x2="39.799" y2="38.706" width="0.001" layer="20"/>
+<wire x1="39.799" y1="38.706" x2="39.799" y2="1.056" width="0.001" layer="20"/>
+<wire x1="39.799" y1="1.056" x2="38.795" y2="0.052" width="0.001" layer="20"/>
+<wire x1="38.795" y1="0.052" x2="33.775" y2="0.052" width="0.001" layer="20"/>
+<wire x1="33.775" y1="0.052" x2="17.46" y2="0.052" width="0.001" layer="20"/>
+<wire x1="17.46" y1="0.052" x2="14.95" y2="0.052" width="0.001" layer="20"/>
+<wire x1="14.95" y1="0.052" x2="1.145" y2="0.052" width="0.001" layer="20"/>
+<wire x1="1.145" y1="0.052" x2="-0.11" y2="1.307" width="0.001" layer="20"/>
+<wire x1="-0.11" y1="1.307" x2="-0.11" y2="38.455" width="0.001" layer="20"/>
+<circle x="37.38186875" y="37.2" radius="1.255" width="0.001" layer="44"/>
+<circle x="2.4" y="37.2" radius="1.255" width="0.001" layer="44"/>
+<circle x="37.38186875" y="2.21813125" radius="1.255" width="0.001" layer="44"/>
+<circle x="2.4" y="2.21813125" radius="1.255" width="0.001" layer="44"/>
+<pad name="1" x="1.143" y="33.4264" drill="1.016" shape="square"/>
+<pad name="2" x="1.143" y="30.8864" drill="1.016" shape="octagon"/>
+<pad name="3" x="1.143" y="28.3464" drill="1.016" shape="octagon"/>
+<pad name="4" x="1.143" y="25.8064" drill="1.016" shape="octagon"/>
+<pad name="5" x="1.143" y="23.2664" drill="1.016" shape="octagon"/>
+<pad name="6" x="1.143" y="20.7264" drill="1.016" shape="octagon"/>
+<pad name="7" x="1.143" y="18.1864" drill="1.016" shape="octagon"/>
+<pad name="8" x="1.143" y="15.6464" drill="1.016" shape="octagon"/>
+<pad name="9" x="1.143" y="13.1064" drill="1.016" shape="octagon"/>
+<pad name="10" x="1.143" y="10.5664" drill="1.016" shape="octagon"/>
+<pad name="11" x="1.143" y="8.0264" drill="1.016" shape="octagon"/>
+<pad name="12" x="1.143" y="5.4864" drill="1.016" shape="octagon"/>
+<rectangle x1="0.889" y1="7.7724" x2="1.397" y2="8.2804" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="10.3124" x2="1.397" y2="10.8204" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="12.8524" x2="1.397" y2="13.3604" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="15.3924" x2="1.397" y2="15.9004" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="17.9324" x2="1.397" y2="18.4404" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="20.4724" x2="1.397" y2="20.9804" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="23.0124" x2="1.397" y2="23.5204" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="25.5524" x2="1.397" y2="26.0604" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="28.0924" x2="1.397" y2="28.6004" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="30.6324" x2="1.397" y2="31.1404" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="33.1724" x2="1.397" y2="33.6804" layer="51" rot="R270"/>
+<rectangle x1="0.889" y1="5.2324" x2="1.397" y2="5.7404" layer="51" rot="R270"/>
+<pad name="13" x="36.0172" y="33.528" drill="1.016" shape="square" rot="R270"/>
+<pad name="14" x="38.5572" y="33.528" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="15" x="36.0172" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="16" x="38.5572" y="30.988" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="17" x="36.0172" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="18" x="38.5572" y="28.448" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="19" x="36.0172" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="20" x="38.5572" y="25.908" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="21" x="36.0172" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="22" x="38.5572" y="23.368" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="23" x="36.0172" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="24" x="38.5572" y="20.828" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="25" x="36.0172" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="26" x="38.5572" y="18.288" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="27" x="36.0172" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="28" x="38.5572" y="15.748" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="29" x="36.0172" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="30" x="38.5572" y="13.208" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="31" x="36.0172" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="32" x="38.5572" y="10.668" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="33" x="36.0172" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="34" x="38.5572" y="8.128" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="35" x="36.0172" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="36" x="38.5572" y="5.588" drill="1.016" shape="octagon" rot="R270"/>
+<rectangle x1="35.7632" y1="33.274" x2="36.2712" y2="33.782" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="33.274" x2="38.8112" y2="33.782" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="30.734" x2="38.8112" y2="31.242" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="30.734" x2="36.2712" y2="31.242" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="28.194" x2="38.8112" y2="28.702" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="28.194" x2="36.2712" y2="28.702" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="25.654" x2="38.8112" y2="26.162" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="23.114" x2="38.8112" y2="23.622" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="20.574" x2="38.8112" y2="21.082" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="25.654" x2="36.2712" y2="26.162" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="23.114" x2="36.2712" y2="23.622" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="20.574" x2="36.2712" y2="21.082" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="18.034" x2="38.8112" y2="18.542" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="18.034" x2="36.2712" y2="18.542" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="15.494" x2="38.8112" y2="16.002" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="15.494" x2="36.2712" y2="16.002" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="12.954" x2="38.8112" y2="13.462" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="12.954" x2="36.2712" y2="13.462" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="10.414" x2="38.8112" y2="10.922" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="10.414" x2="36.2712" y2="10.922" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="7.874" x2="38.8112" y2="8.382" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="7.874" x2="36.2712" y2="8.382" layer="51" rot="R270"/>
+<rectangle x1="38.3032" y1="5.334" x2="38.8112" y2="5.842" layer="51" rot="R270"/>
+<rectangle x1="35.7632" y1="5.334" x2="36.2712" y2="5.842" layer="51" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NANOPI_HAT">
+<description>NanoPi Neo/Neo2 Hat Template</description>
+<pin name="OUT_3.3V_13" x="76.2" y="40.64" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="GND_12" x="48.26" y="12.7" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="DIN_11" x="48.26" y="15.24" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="DOUT_10" x="48.26" y="17.78" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="BCK_9" x="48.26" y="20.32" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="LRCK_8" x="48.26" y="22.86" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="SPDIF_P_7" x="48.26" y="25.4" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="IR_RX_6" x="48.26" y="27.94" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="USB_2_D-_5" x="48.26" y="30.48" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="USB_2_D+_4" x="48.26" y="33.02" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="USB_1_D-_3" x="48.26" y="35.56" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="USB_1_D+_2" x="48.26" y="38.1" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="OUT_5V_P1" x="48.26" y="40.64" visible="pad" length="short" direction="pas" function="dot"/>
+<text x="35.56" y="40.64" size="1.016" layer="95">OUT_5V</text>
+<text x="35.56" y="38.1" size="1.016" layer="95">USB1_D+</text>
+<text x="35.56" y="35.56" size="1.016" layer="95">USB1_D-</text>
+<text x="35.56" y="33.02" size="1.016" layer="95">USB2_D+</text>
+<text x="35.56" y="30.48" size="1.016" layer="95">USB2_D-</text>
+<text x="35.56" y="27.94" size="1.016" layer="95">IRRX</text>
+<text x="35.56" y="25.4" size="1.016" layer="95">SPDIF</text>
+<text x="35.56" y="22.86" size="1.016" layer="95">I2S0_LRCK</text>
+<text x="35.56" y="20.32" size="1.016" layer="95">I2S0_BCK</text>
+<text x="35.56" y="17.78" size="1.016" layer="95">I2S0_DOUT</text>
+<text x="35.56" y="15.24" size="1.016" layer="95">I2S0_DIN</text>
+<text x="35.56" y="12.7" size="1.016" layer="95">GND</text>
+<pin name="OUT_5V_14" x="83.82" y="40.64" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<text x="66.04" y="40.64" size="1.016" layer="95">OUT_3.3V</text>
+<text x="88.9" y="40.64" size="1.016" layer="95">OUT_5VV</text>
+<pin name="I2C0_SDA_15" x="76.2" y="38.1" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="OUT_5V_16" x="83.82" y="38.1" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<text x="66.04" y="38.1" size="1.016" layer="95">I2C0_SDA</text>
+<text x="88.9" y="38.1" size="1.016" layer="95">OUT_5VV</text>
+<pin name="I2C0_SCL_17" x="76.2" y="35.56" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="GND_18" x="83.82" y="35.56" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="PG11_19" x="76.2" y="33.02" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="UART1_TX_20" x="83.82" y="33.02" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="GND_21" x="76.2" y="30.48" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="UART1_RX_22" x="83.82" y="30.48" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="UART2TX_23" x="76.2" y="27.94" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="PA6_24" x="83.82" y="27.94" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="UART2_RTS_25" x="76.2" y="25.4" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="GND26" x="83.82" y="25.4" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="UART2_CTS_27" x="76.2" y="22.86" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="UART1_RTS_28" x="83.82" y="22.86" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3V3_29" x="76.2" y="20.32" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="UART1_CTS_30" x="83.82" y="20.32" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="MOSI_31" x="76.2" y="17.78" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="GND_32" x="83.82" y="17.78" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="SPI0_MISO_33" x="76.2" y="15.24" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="UART2_RX_34" x="83.82" y="15.24" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="SPI0_CLK_35" x="76.2" y="12.7" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="SPI_0_CS_36" x="83.82" y="12.7" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<wire x1="43.18" y1="48.26" x2="88.9" y2="48.26" width="0.254" layer="95"/>
+<wire x1="88.9" y1="48.26" x2="88.9" y2="10.16" width="0.254" layer="95"/>
+<wire x1="88.9" y1="10.16" x2="43.18" y2="10.16" width="0.254" layer="95"/>
+<wire x1="43.18" y1="10.16" x2="43.18" y2="48.26" width="0.254" layer="95"/>
+<text x="45.72" y="45.72" size="1.778" layer="95">NanoPI NEO/NEO2 HAT Base</text>
+<text x="66.04" y="35.56" size="1.016" layer="95">I2C0_SCL</text>
+<text x="66.04" y="33.02" size="1.016" layer="95">PG11</text>
+<text x="66.04" y="30.48" size="1.016" layer="95">GND</text>
+<text x="66.04" y="27.94" size="1.016" layer="95">UART2 TX</text>
+<text x="66.04" y="25.4" size="1.016" layer="95">UART2_RTS</text>
+<text x="66.04" y="22.86" size="1.016" layer="95">UART2CTS</text>
+<text x="66.04" y="20.32" size="1.016" layer="95">OUT 3.3V</text>
+<text x="66.04" y="17.78" size="1.016" layer="95">SPI0_MOSI</text>
+<text x="66.04" y="15.24" size="1.016" layer="95">SPI0_MISO</text>
+<text x="66.04" y="12.7" size="1.016" layer="95">SPI0_CLK</text>
+<text x="88.9" y="35.56" size="1.016" layer="95">GND</text>
+<text x="88.9" y="33.02" size="1.016" layer="95">UART1_TX</text>
+<text x="88.9" y="30.48" size="1.016" layer="95">UART1_RX</text>
+<text x="88.9" y="27.94" size="1.016" layer="95">PA6</text>
+<text x="88.9" y="25.4" size="1.016" layer="95">GND</text>
+<text x="88.9" y="22.86" size="1.016" layer="95">UART1 RTS</text>
+<text x="88.9" y="20.32" size="1.016" layer="95">UART1 CTS</text>
+<text x="88.9" y="17.78" size="1.016" layer="95">GND</text>
+<text x="88.9" y="15.24" size="1.016" layer="95">UART2_RX</text>
+<text x="88.9" y="12.7" size="1.016" layer="95">SPI0_CS</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NANO">
+<description>NanoPi NEO/NEO2 Hat Template</description>
+<gates>
+<gate name="G$1" symbol="NANOPI_HAT" x="-7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="NANOPI_NEO_HAT">
+<connects>
+<connect gate="G$1" pin="3V3_29" pad="29"/>
+<connect gate="G$1" pin="BCK_9" pad="9"/>
+<connect gate="G$1" pin="DIN_11" pad="11"/>
+<connect gate="G$1" pin="DOUT_10" pad="10"/>
+<connect gate="G$1" pin="GND26" pad="26"/>
+<connect gate="G$1" pin="GND_12" pad="12"/>
+<connect gate="G$1" pin="GND_18" pad="18"/>
+<connect gate="G$1" pin="GND_21" pad="21"/>
+<connect gate="G$1" pin="GND_32" pad="32"/>
+<connect gate="G$1" pin="I2C0_SCL_17" pad="17"/>
+<connect gate="G$1" pin="I2C0_SDA_15" pad="15"/>
+<connect gate="G$1" pin="IR_RX_6" pad="6"/>
+<connect gate="G$1" pin="LRCK_8" pad="8"/>
+<connect gate="G$1" pin="MOSI_31" pad="31"/>
+<connect gate="G$1" pin="OUT_3.3V_13" pad="13"/>
+<connect gate="G$1" pin="OUT_5V_14" pad="14"/>
+<connect gate="G$1" pin="OUT_5V_16" pad="16"/>
+<connect gate="G$1" pin="OUT_5V_P1" pad="1"/>
+<connect gate="G$1" pin="PA6_24" pad="24"/>
+<connect gate="G$1" pin="PG11_19" pad="19"/>
+<connect gate="G$1" pin="SPDIF_P_7" pad="7"/>
+<connect gate="G$1" pin="SPI0_CLK_35" pad="35"/>
+<connect gate="G$1" pin="SPI0_MISO_33" pad="33"/>
+<connect gate="G$1" pin="SPI_0_CS_36" pad="36"/>
+<connect gate="G$1" pin="UART1_CTS_30" pad="30"/>
+<connect gate="G$1" pin="UART1_RTS_28" pad="28"/>
+<connect gate="G$1" pin="UART1_RX_22" pad="22"/>
+<connect gate="G$1" pin="UART1_TX_20" pad="20"/>
+<connect gate="G$1" pin="UART2TX_23" pad="23"/>
+<connect gate="G$1" pin="UART2_CTS_27" pad="27"/>
+<connect gate="G$1" pin="UART2_RTS_25" pad="25"/>
+<connect gate="G$1" pin="UART2_RX_34" pad="34"/>
+<connect gate="G$1" pin="USB_1_D+_2" pad="2"/>
+<connect gate="G$1" pin="USB_1_D-_3" pad="3"/>
+<connect gate="G$1" pin="USB_2_D+_4" pad="4"/>
+<connect gate="G$1" pin="USB_2_D-_5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SPDIF" value="SPDIF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
