@@ -11,6 +11,10 @@ NanoHat SPDIF is a custom BuildRoot Linux Distribution for NanoPi NEO / NEO2 ser
   - Built in MPD/UPMPDCLI (Stream from any DLNA device to the NanoHAT SPDIF)
   - Built in ShairPortSync (Stream from any Apple device via AirPlay to the NanoHat SPDIF)
 
+# Downloads (Google Drive)
+
+  - https://drive.google.com/drive/folders/117LvP53B9QVHNVw6FJSuzVPkvi4WkGF4?usp=sharing
+
 # You can Purchase NanoHAT SPDIF module from:
 
   - https://hwgroup-bg.com/nanohat-spdif
