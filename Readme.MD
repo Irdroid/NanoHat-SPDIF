@@ -15,6 +15,14 @@ NanoHat SPDIF is a custom BuildRoot Linux Distribution for NanoPi NEO / NEO2 ser
 
   - https://drive.google.com/drive/folders/117LvP53B9QVHNVw6FJSuzVPkvi4WkGF4?usp=sharing
 
+# Building
+
+  - Clone / Download the repository
+  - Download the patched kernel from the google drive link above 
+  - Copy the kernel archive in buildroot/dl
+  - Make V=s
+  - After the build process completes you image will be in buildroot/output/images
+
 # You can Purchase NanoHAT SPDIF module from:
 
   - https://hwgroup-bg.com/nanohat-spdif
